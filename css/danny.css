@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.navbar .navbar-nav .nav-link {
+	color: #222;
+	font-size: 15px;
+}
+.fa-bars:before {
+	color: black;
+}
+.blog .item img {
+	filter: blur(0 px);
+	-webkit-filter: blur(0px);
+}
+.blog .item .content {
+	background-color: #425cbb;
+	opacity: 0.01;
+}
+.blog .item:hover .content {
+	opacity: 0.9;
+}
+.hero-img {
+	margin-top: 140px;
+	display: block;
+	width: 40px;
+	height: 400px;
+	border-radius: 50%;
+	background-image: url(../img/IMG_5994940363915.jpeg);
+	/* background-position: 0% 0%; */
+	background-repeat: no-repeat;
+}
+.about .hero-img {
+	background-position: 25%;
+	/* height: 400px; */
+}
+.myabout {
+	justify-content: space-evenly;
+}
+.blogspace {
+	margin-top: 50px;
+	display: flex;
+}
+.fa-github:before {
+	font-size: xx-large;
+}
+.text-center .icofont-brand-linkedin:before {
+	font-size: large;
+}
+.text-center .fa-github:before {
+	font-size: large;
+}
+.icofont-brand-linkedin:before {
+	font-size: xx-large;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.blog .item .content h5 {
+		font-size: small;
+	}
+	.blog .item .content .more {
+		border-bottom: none;
+	}
+	.blog .item .content h6 {
+		font-size: small;
+	}
+}
+@media screen and (max-width: 991px) {
+	.navbar {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* .header .caption h1{
+        font-size: 0; 
+    } */
+	.navbar .navbar-collapse {
+		background: white !important;
+	}
+	.nav-scroll .navbar-collapse .nav-link {
+		color: black !important;
+	}
+	.navbar .navbar-nav .active {
+		color: #c49b66 !important;
+	}
+	.about .hero-img {
+		height: 250px;
+		width: 250px;
+	}
+	.blogspace {
+		margin-top: 50px;
+		display: block;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	.about .hero-img {
+		margin-top: 220px;
+		height: 325px;
+	}
+	.blogspace {
+		margin-top: 50px;
+		display: flex;
+	}
+	.section-heads {
+		margin-bottom:80px;
+	}
+}
+@media screen and (min-width: 1201px){
+	.section-heads {
+		margin-bottom: 80px;
+	}
+}
+
+element.style {
+	width: 0px;
+}
